@@ -33,7 +33,7 @@ foreach($goods as $item): ?>
 			<input type="hidden" name="id" value="<?= $item['id'] ?>">
 			<button type="submit" 
 			style="border: none; background: none; color: green; cursor: pointer;"> 
-				<i class="fa-solid fa-cart-shopping fa-xl"></i> 
+			<i class="fa-solid fa-cart-plus fa-xl"></i>
 			</button>
 		</form>
 	</td>
