@@ -8,9 +8,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Каталог товаров</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+	<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" /><body>
 <p>Товаров в <a href="basket.php">корзине</a>: <?= $count?></p>
 <table border="1" cellpadding="5" cellspacing="0" width="100%">
 <tr>
@@ -33,12 +31,12 @@ foreach($goods as $item): ?>
 			<input type="hidden" name="id" value="<?= $item['id'] ?>">
 			<button type="submit" 
 			style="border: none; background: none; color: green; cursor: pointer;"> 
-			<i class="fa-solid fa-cart-plus fa-xl"></i>
+			<i class="fa-regular fa-cart-plus fa-xl"></i>
 			</button>
 		</form>
 	</td>
 </tr>
-<?php endforeach;  ?>
+<?php endforeach;?>
 
 </table>
 </body>

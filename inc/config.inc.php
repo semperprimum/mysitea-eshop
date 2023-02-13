@@ -15,3 +15,5 @@ if ( !$link ) {
     . mysqli_connect_error();
     die;
 }
+
+basketInit();
